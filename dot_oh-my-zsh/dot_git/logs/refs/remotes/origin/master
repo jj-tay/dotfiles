@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 914b6399e88a16fdced427c2ae7738785dcb16b0 Tay Jun Jie <jjat1987@gmail.com> 1645636369 +0800	fetch --depth=1 origin: storing head
+914b6399e88a16fdced427c2ae7738785dcb16b0 40f49342f587167292461242dc13fdb93363278a Tay Jun Jie <jjat1987@gmail.com> 1646753667 +0800	pull --quiet --rebase origin master: fast-forward
