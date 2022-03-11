@@ -1,0 +1,4 @@
+Already installed "vim-tmux-navigator"
+Updating all plugins!
+
+  "vim-tmux-navigator" update success
