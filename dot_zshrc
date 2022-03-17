@@ -138,3 +138,9 @@ export EDITOR='nvim'
 
 # Setup WSL2 to use Xming
 [[ ! -f ~/.wsl2xming ]] || source ~/.wsl2xming
+
+# Add snap bin to PATH
+if command -v snap &> /dev/null
+then
+    export PATH=$PATH:/snap/bin
+fi
