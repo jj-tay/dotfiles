@@ -132,3 +132,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Set editor
+export EDITOR='nvim'
+
+# Setup WSL2 to use Xming
+[[ ! -f ~/.wsl2xming ]] || source ~/.wsl2xming
