@@ -148,4 +148,4 @@ fi
 # Add awscli autocomplete
 autoload bashcompinit && bashcompinit
 autoload -Uz compinit && compinit
-complete -C '$(aws_completer)' aws
+complete -C '/usr/local/bin/aws_completer' aws
