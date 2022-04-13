@@ -85,6 +85,7 @@ plugins=(
     aliases
     python
     aws
+    dotenv
 )
 
 source $ZSH/oh-my-zsh.sh
