@@ -147,8 +147,3 @@ if command -v snap &> /dev/null
 then
     export PATH=$PATH:/snap/bin
 fi
-
-# Add awscli autocomplete
-autoload bashcompinit && bashcompinit
-autoload -Uz compinit && compinit
-complete -C '/usr/local/bin/aws_completer' aws
