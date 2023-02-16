@@ -59,6 +59,7 @@ Plug 'stephpy/vim-yaml'
 Plug 'hashivim/vim-terraform'
 Plug 'pearofducks/ansible-vim'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'jalvesaq/Nvim-R'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
