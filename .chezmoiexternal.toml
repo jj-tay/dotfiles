@@ -37,6 +37,6 @@
 [".config/nvim"]
     type = "archive"
     url = "https://github.com/NvChad/NvChad/archive/master.tar.gz"
-    exact = true
+    #exact = true
     stripComponents = 1
     refreshPeriod = "168h"
