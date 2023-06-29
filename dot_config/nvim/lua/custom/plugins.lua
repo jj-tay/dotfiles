@@ -60,6 +60,10 @@ local plugins = {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
   -- }
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }
 
 return plugins
