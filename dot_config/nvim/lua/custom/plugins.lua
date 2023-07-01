@@ -64,6 +64,10 @@ local plugins = {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
+  {
+    "jalvesaq/Nvim-R",
+    ft = "r",
+  },
 }
 
 return plugins
