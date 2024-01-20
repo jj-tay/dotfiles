@@ -1,1 +1,1 @@
-alias ls='exa --color=auto' 
+alias ls='exa'
