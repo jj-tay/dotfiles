@@ -1,3 +1,7 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y bat
+config_git () {
+	sudo apt-get update
+	sudo apt-get install -y bat
+}
+
+config_git()
