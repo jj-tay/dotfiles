@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo apt-get install -y gpg
 sudo mkdir -p /etc/apt/keyrings

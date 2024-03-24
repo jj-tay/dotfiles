@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo apt-get install -y tmux
 git clone https://github.com/gpakosz/.tmux.git ~

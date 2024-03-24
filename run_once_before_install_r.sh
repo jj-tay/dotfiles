@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 # install two helper packages we need
 sudo apt-get install --no-install-recommends software-properties-common dirmngr
