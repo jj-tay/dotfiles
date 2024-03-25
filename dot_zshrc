@@ -154,3 +154,6 @@ fi
 
 # Add eza autocompletions
 export FPATH="~/bin/eza/completions/zsh:$FPATH"
+
+# Add neovim to path
+export PATH="$PATH:/opt/nvim/" 
