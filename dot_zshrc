@@ -156,4 +156,4 @@ fi
 export FPATH="~/bin/eza/completions/zsh:$FPATH"
 
 # Add neovim to path
-export PATH="$PATH:/opt/nvim/" 
+export PATH="$PATH:/opt/nvim-linux64/bin" 
