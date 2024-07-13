@@ -16,12 +16,6 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
-[".oh-my-zsh/custom/plugins/zsh-z"]
-    type = "archive"
-    url = "https://github.com/agkozak/zsh-z/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
 [".tmux"]
     type = "archive"
     url = "https://github.com/gpakosz/.tmux/archive/master.tar.gz"
