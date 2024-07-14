@@ -12,8 +12,8 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
-export DEFAULT_USER=jj
+#ZSH_THEME="agnoster"
+#export DEFAULT_USER=jj
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -156,3 +156,9 @@ export FPATH="~/.local/bin/eza/completions/zsh:$FPATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Use oh-my-posh theme
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/gruvbox.omp.json)"
