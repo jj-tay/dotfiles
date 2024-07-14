@@ -94,7 +94,6 @@ plugins=(
   python
   ripgrep
   terraform
-  tig
   tmux
   zoxide
 )
