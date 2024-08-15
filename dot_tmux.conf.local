@@ -444,6 +444,7 @@ set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'egel/tmux-gruvbox'
 set -g @plugin 'christoomey/vim-tmux-navigator'
+set -g @plugin 'jaclu/tmux-menus'
 run '~/.tmux/plugins/tpm/tpm'
 
 # Enable dark tmux gruvbox theme
