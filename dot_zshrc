@@ -161,4 +161,4 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Use oh-my-posh theme
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/jj-tay/oh-my-posh/main/themes/gruvbox.omp.json')"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/gruvbox.omp.json)"
