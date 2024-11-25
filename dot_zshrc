@@ -85,14 +85,12 @@ plugins=(
   docker-compose
   docker
   eza
-  fd
   fzf
   gh
   npm
   nvm
   pip
   python
-  ripgrep
   terraform
   tmux
   zoxide
