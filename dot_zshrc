@@ -160,3 +160,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Use oh-my-posh theme
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/gruvbox.omp.json)"
+
+# Set z command to a default of cd
+ZOXIDE_CMD_OVERRIDE="true"
