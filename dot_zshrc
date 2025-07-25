@@ -148,6 +148,9 @@ unset __conda_setup
 # Set editor
 export EDITOR='nvim'
 
+# Set browser
+export BROWSER='/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'
+
 # Setup WSL2 to use Xming
 [[ ! -f ~/.wsl2xming ]] || source ~/.wsl2xming
 
