@@ -166,3 +166,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Use oh-my-posh theme
 eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/gruvbox.omp.json)"
+
+# Add OneDrive to path
+export ONEDRIVE="/mnt/c/Users/russe/OneDrive"
